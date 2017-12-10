@@ -60,7 +60,7 @@ class Solution {
     }
   
     public int[] solution(int[] A, int K) {
-      return ((null != A) & (0 == A.length)) ? A: shiftRight(A,K);
+      return ((null != A) & (1 >= A.length)) ? A: shiftRight(A,K);
     }
 }
   
